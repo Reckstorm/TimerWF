@@ -30,8 +30,11 @@
         {
             this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(280, 380);
             this.Text = "Form1";
+
+            this.MaximumSize = new System.Drawing.Size(280, 380);
+            this.MinimumSize = new System.Drawing.Size(280, 380);
         }
 
         #endregion
